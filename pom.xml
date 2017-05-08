@@ -21,7 +21,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>Content Segregation Script</name>
+    <name>Email Content Segregation Script</name>
     <description>Python script that uses the Mailgun/Talon library to parse emails and mark the start of each new message in the chain.</description>
     <url>https://github.com/CAFDataProcessing/util-email-content-segregation-script</url>
 
