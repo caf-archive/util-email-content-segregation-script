@@ -20,6 +20,15 @@ from talon import quotations
 from talon import signature
 from talon.signature.bruteforce import extract_signature
 
+import os
+import resource
+
+#Both environment variables are expressed in mb
+soft = os.getenv('PYTHON_RLIMIT_DATA_SOFT', default='256')
+hard = os.getenv('PYTHON_RLIMIT_DATA_HARD', default='512')
+
+resource.setrlimit(resource.RLIMIT_DATA, (int(soft) * 1048576, int(hard) * 1048576))
+
 # don't forget to init the library first
 # it loads machine learning classifiers
 talon.init()
