@@ -47,14 +47,9 @@
     
     <developers>
         <developer>
-            <id>aaron-oloughlin</id>
-            <name>Aaron O'Loughlin</name>
-            <email>aaron-oloughlin@hpe.com</email>
-        </developer>
-        <developer>
             <id>CJComac</id>
             <name>Christopher Comac</name>
-            <email>christopher.jam.comac@hpe.com</email>
+            <email>christopher.jam.comac@microfocus.com</email>
         </developer>
     </developers>
 
