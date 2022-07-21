@@ -23,6 +23,7 @@ from talon.signature.bruteforce import extract_signature
 import os
 import resource
 import joblib
+import comb
 
 #Both environment variables are expressed in mb
 soft = os.getenv('PYTHON_RLIMIT_DATA_SOFT', default='256')
