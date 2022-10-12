@@ -27,7 +27,7 @@ import resource
 soft = os.getenv('PYTHON_RLIMIT_DATA_SOFT', default='256')
 hard = os.getenv('PYTHON_RLIMIT_DATA_HARD', default='512')
 
-resource.setrlimit(resource.RLIMIT_DATA, (int(soft) * 1048576, int(hard) * 1048576))
+#resource.setrlimit(resource.RLIMIT_DATA, (int(soft) * 1048576, int(hard) * 1048576))
 
 # don't forget to init the library first
 # it loads machine learning classifiers
